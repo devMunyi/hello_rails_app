@@ -19,15 +19,12 @@
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Hello React Rails] <a name="about-project"></a>
-![hello-gif](https://thumbs.gfycat.com/PepperyGrizzledClownanemonefish-max-1mb.gif)
-
-**[Hello React Rails]** is a project is meant for setting up a "Hello world" Rails project as one app with Webpack and React. It is meant to be a starting point for a Rails project with React.
+# 📖 Hello React Rails <a name="about-project"></a>
+**Hello React Rails** is a project is meant for setting up a "Hello world" Rails project as one app with Webpack and React. It is meant to be a starting point for a Rails project with React.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -115,8 +112,8 @@ Setup Database (Mandatory)
 POSTGRES_HOST='localhost'
 POSTGRES_USERNAME='your_postgress_username'
 POSTGRES_PASSWORD='your_postgress_password'
-
-- To create database run:
+```
+-To create database run:
 
 ```
 rails db:create
@@ -134,11 +131,11 @@ rails db:seed
 
 To run the project, execute the following command:
 
-```sh
-  ./bin/dev  # for building tailwind css, and webpack, and rails server
+```
+  ./bin/dev  # for building css, and webpack, and rails server
 ``` 
 Or
-```sh
+```
   rails server or rails s  # after build
 ```
 
