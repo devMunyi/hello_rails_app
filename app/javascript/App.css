@@ -1,0 +1,10 @@
+body {
+  display: flex;
+  align-items: center; /* vertical centering */
+  justify-content: center; /* horizontal centering */
+  height: 100vh;
+}
+
+.greeting {
+  /* add any additional styles for the greeting div here */
+}
